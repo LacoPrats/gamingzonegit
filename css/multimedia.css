@@ -1,0 +1,152 @@
+* {
+  margin: 5px;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  letter-spacing: 0ch;
+}
+
+.bodyimag {
+  background: -webkit-gradient(linear, left top, left bottom, from(#1a255d), color-stop(#1e1e67), to(#000044));
+  background-color: #5023A8;
+}
+
+header .titulos {
+  text-align: center;
+  color: #F5EB4C;
+}
+
+header h2 {
+  text-align: center;
+}
+
+header h2 {
+  color: antiquewhite;
+  text-align: center;
+  word-spacing: 0,5ch;
+}
+
+header h1 {
+  color: white;
+  display: block;
+  font-size: 2em;
+  -webkit-margin-before: 0.67em;
+          margin-block-start: 0.67em;
+  -webkit-margin-after: 0.67em;
+          margin-block-end: 0.67em;
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 70px;
+  word-spacing: 20px;
+  letter-spacing: 5px;
+}
+
+nav {
+  background-color: #F5EB4C;
+}
+
+nav .nav__ {
+  padding: 1px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+nav .nav__ ul li {
+  margin: 4px 60px;
+}
+
+nav .nav__ ul li a {
+  color: white;
+}
+
+nav .nav__ a {
+  color: white;
+}
+
+main hr {
+  color: cyan;
+}
+
+main h1 {
+  color: darkslateblue;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 80px;
+}
+
+main .titulos {
+  text-align: center;
+  color: #F5EB4C;
+  margin-top: 30px;
+}
+
+main .ilus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+main .ilus .imags {
+  width: 350px;
+  height: 400px;
+  border: 2px double whitesmoke;
+}
+
+main .ilus .imags:hover {
+  -webkit-transform: scale(1.3, 1.3);
+          transform: scale(1.3, 1.3);
+  border: 5px double #ff0fc3;
+}
+
+footer {
+  background: -webkit-gradient(linear, left top, left bottom, from(#33a8ae), color-stop(#64d3e4), to(#50d0c1));
+  background-color: #F5EB4C;  
+  color: darkslateblue;
+  text-align: center;
+  letter-spacing: 3px;
+}
+.heroImage {
+  background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/imag/fanar.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 25rem;
+  position: relative;
+}
+
+.heroText {
+  position: absolute;
+  top: 40%;
+  right: 20%;
+  text-align: center;
+}
+
+.heroText h2 {
+  font-size: 3rem;
+  color: yellow;
+}
+
+.heroText p {
+  color: yellow; 
+}
+.main_title{
+  color: #F5EB4C;
+  text-align: center;
+  margin-top: 30px;
+}

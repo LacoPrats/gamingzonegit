@@ -1,0 +1,235 @@
+* {
+  margin: 5px;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  letter-spacing: 0ch;
+}
+
+.bodyimag {
+  background: -webkit-gradient(linear, left top, left bottom, from(#1a255d), color-stop(#1e1e67), to(#000044));
+  background-color: #5023A8;
+}
+
+header .index_element {
+  text-align: center;
+  color: #F5EB4C;
+}
+
+header .index_element h1 {
+  color: #F5EB4C;
+  display: block;
+  font-size: 2em;
+  -webkit-margin-before: 0.67em;
+          margin-block-start: 0.67em;
+  -webkit-margin-after: 0.67em;
+          margin-block-end: 0.67em;
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 70px;
+  word-spacing: 20px;
+  letter-spacing: 5px;
+}
+
+header .index_element h2 {
+  color: #F5EB4C;
+  text-align: center;
+  word-spacing: 0,5ch;
+  text-align: center;
+}
+
+nav {
+  background-color: #F5EB4C;
+}
+
+nav .nav__ {
+  padding: 1px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+nav .nav__ ul li {
+  margin: 4px 60px;
+}
+
+nav .nav__ ul li a {
+  color: white;
+}
+
+nav .nav__ a {
+  color: white;
+}
+
+main {
+  text-align: center;
+}
+
+main hr {
+  color: #F5EB4C;
+}
+
+main .main_element {
+  text-align: center;
+  color: #F5EB4C;
+  -webkit-text-size-adjust: 40px;
+     -moz-text-size-adjust: 40px;
+      -ms-text-size-adjust: 40px;
+          text-size-adjust: 40px;
+}
+
+main .main_photo {
+  width: 550px;
+  height: 400px;
+  display: line block;
+  margin: 40px;
+}
+
+main .maint {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border: 5px #3dd0d8;
+}
+
+main .maint li {
+  color: cyan;
+  text-align: left;
+}
+
+main .maincuadro {
+  width: 250px;
+  height: 300px;
+  margin-bottom: 5px;
+  margin: 10px;
+}
+
+main .maincuadro img {
+  width: 150px;
+  height: 200px;
+}
+
+main .maincuadro p {
+  background-color: cyan;
+  margin: 5px;
+  color: darkslateblue;
+}
+
+h1 {
+  color: darkslateblue;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 80px;
+  -webkit-text-size-adjust: 60px;
+     -moz-text-size-adjust: 60px;
+      -ms-text-size-adjust: 60px;
+          text-size-adjust: 60px;
+}
+
+div h1 {
+  background-color: cyan;
+  color: darkslateblue;
+}
+
+
+footer {
+  background: -webkit-gradient(linear, left top, left bottom, from(#33a8ae), color-stop(#64d3e4), to(#50d0c1));
+  background-color: #F5EB4C;  
+  color: darkslateblue;
+  text-align: center;
+  letter-spacing: 3px;
+}
+/*# sourceMappingURL=tienda.css.map */
+
+.carta {
+  background-color:#864DF5;
+  border-radius: 10px;
+  margin: 10px;
+  width: 500px;
+}
+
+.carta__image {
+  width: 80%;
+}
+
+.carta__text {
+  color: #F5EB4C
+}
+
+.productTitle {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.productPrice {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.carta__image  {
+  margin: 1rem 0rem;
+  width: 90%;
+  height: 50%;
+}
+
+.btnMas {
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #864DF5;
+  color: #F5EB4C;
+}
+
+.heroImage {
+  background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/imag/high-score-mundo-videojuegos-2036783.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 25rem;
+  position: relative;
+}
+
+.heroText {
+  position: absolute;
+  top: 40%;
+  right: 25%;
+}
+
+.heroText h2 {
+  font-size: 3rem;
+  color: yellow;
+}
+
+.heroText p {
+  color: yellow;
+  
+}
+.shoptitle{
+margin: 3rem;
+color: #00d6cf;
+  }
+.buttontienda{
+    padding: 1rem 1rem;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #5023A8;
+    color: #F5EB4C;
+    margin-bottom: 20px;
+  }  

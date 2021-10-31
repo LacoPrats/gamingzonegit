@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 0ch;
+}
+
+.bodyimag{
+    background: linear-gradient(rgb(26, 37, 93), rgb(30, 30, 103), rgb(0, 0, 68));
+}
+header {
+    .index_element{
+        text-align: center;
+        color: cyan;
+        h1 {
+            color:cyan;
+            display: block;
+            font-size: 2em;
+            margin-block-start: 0.67em;
+            margin-block-end: 0.67em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            font-weight: bold;
+            text-align: center;
+            font-size: 70px;
+            word-spacing: 20px;
+            letter-spacing: 5px;
+            }
+            h2{
+                color: cyan;
+                text-align: center; 
+                word-spacing: 0,5ch; 
+                text-align: center; 
+            }
+        }
+}
+nav {
+    background-color:(rgb(0, 214, 207));
+    .nav__ { 
+        padding: 1px;
+        align-items: flex-end;
+        justify-content: center;
+        ul li {
+            margin: 4px 60px;
+            a {
+                color: white;
+
+            }
+        }
+         a {
+            color: white;
+
+        }
+}   }
+
+main {
+    text-align: center;
+    hr{
+        color: cyan;
+    }
+    .main_element{
+        text-align: center;
+        color: cyan;
+       text-size-adjust: 40px;
+    
+       }
+     .main_photo{
+         width: 550px;
+         height: 400px;
+         display: line block;
+         margin: 40px;
+         
+     }  
+        .maint{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            border: 5px rgb(61, 208, 216);
+            li{
+                color: cyan;
+                text-align: left;
+            }
+            
+        }
+        .maincuadro{
+            width: 250px;
+            height: 300px;
+            margin-bottom: 5px;
+            margin: 10px;
+            img{
+             width: 150px;
+             height: 200px;
+            }
+             p{
+                 background-color:cyan;
+                 margin: 5px;
+                color: darkslateblue;
+             }
+            
+
+        }
+       }
+        h1{
+            color: darkslateblue;
+            box-sizing: border-box;
+            height: 80px;
+            text-size-adjust: 60px;
+        }
+    div{
+        h1{
+            background-color: cyan;
+            color: darkslateblue;
+        }
+        p{
+            color: cyan;
+        }
+    }
+footer {
+    background: linear-gradient(rgb(51, 168, 174), rgb(100, 211, 228), rgb(80, 208, 193));
+    color:darkslateblue;
+    text-align: center;
+    letter-spacing: 3px;
+}
+    

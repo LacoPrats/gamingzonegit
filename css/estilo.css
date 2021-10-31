@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.bodyimag {
+  background: -webkit-gradient(linear, left top, left bottom, from(#3e3efb), color-stop(blue), to(navy));
+  background: linear-gradient(#3e3efb, blue, navy);
+}
+
+header .index {
+  background: -webkit-gradient(linear, left top, left bottom, from(#3e3efb), color-stop(blue), to(navy));
+  background: linear-gradient(#3e3efb, blue, navy);
+  font-size: larger;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  letter-spacing: 0ch;
+}
+
+header h1 .titulos {
+  text-align: center;
+}
+
+header h2 .titulos {
+  text-align: center;
+}
+
+nav a {
+  color: white;
+}
+
+nav div a {
+  color: white;
+}
+
+main .monitor {
+  margin: 0px;
+  border: inset;
+  background-image: url("imag/img/fondo3.jpg");
+}
+
+.video {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(#3e3efb), color-stop(blue), to(navy));
+  background: linear-gradient(#3e3efb, blue, navy);
+}
+
+footer {
+  color: snow;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.card {
+  background-color: red;
+}
+
+.card__image {
+  width: 80%;
+}
+/*# sourceMappingURL=estilo.css.map */
