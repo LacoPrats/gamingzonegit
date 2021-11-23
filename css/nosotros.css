@@ -11,22 +11,18 @@
   background: -webkit-gradient(linear, left top, left bottom, from(#1a255d), color-stop(#1e1e67), to(#000044));
   background-color: #5023A8;
 }
-
 header .titulos {
   text-align: center;
   color: #F5EB4C;
 }
-
 header h2 {
   text-align: center;
 }
-
 header h2 {
   color: antiquewhite;
   text-align: center;
   word-spacing: 0,5ch;
 }
-
 header h1 {
   color: white;
   display: block;
@@ -45,11 +41,9 @@ header h1 {
   word-spacing: 20px;
   letter-spacing: 5px;
 }
-
 nav {
   background-color: #F5EB4C;
 }
-
 nav .nav__ {
   padding: 1px;
   -webkit-box-align: end;
@@ -67,7 +61,6 @@ nav .nav__ ul li {
 nav .nav__ ul li a {
   color: white;
 }
-
 nav .nav__ a {
   color: white;
 }
@@ -78,17 +71,12 @@ main h1 {
           box-sizing: border-box;
   height: 80px;
 }
-
 main h2 {
   text-align: center;
 }
-
 main p {
   text-align: center;
 }
-
-
-
 footer {
   background: -webkit-gradient(linear, left top, left bottom, from(#33a8ae), color-stop(#64d3e4), to(#50d0c1));
   background-color: #F5EB4C;  
@@ -96,7 +84,6 @@ footer {
   text-align: center;
   letter-spacing: 3px;
 }
-
 .heroImage1 {
   background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/imag/nosotros1.jpg");
   background-size: cover;
@@ -104,6 +91,13 @@ footer {
   height: 15rem;
   position: relative;
   color: #F5EB4C;
+  margin: 0px;
+}
+.nostitle{
+  text-align: center;
+  font-weight: bold;
+  padding-top: 50px;
+font-size: 3rem;
 }
 .heroImage2 {
   background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/imag/nosotros2.jpg");
@@ -111,7 +105,8 @@ footer {
   background-repeat: no-repeat;
   height: 15rem;
   position: relative;
-  color: #F5EB4C
+  color: #F5EB4C;
+  margin: 0px;
 }
 .heroImage3 {
   background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/imag/nosotros3.jpg");
@@ -144,7 +139,34 @@ footer {
   margin: 20px;
   background-color: #864DF5;
   border-radius: 20px;
-
 }
-
+.noscontent1{
+font-size: 15px;
+font-weight: bolder;
+}
+@media only screen and (max-width:480px) {
+  .nostitle{
+    margin: auto;
+    font-size: 10px;
+  }
+  .noscontent1{
+    margin: auto;
+    font-size:10px;
+  }
+}
+@media only screen and (max-width:768px) {
+  .nostitle{
+    margin: auto;
+    font-size: 15px;
+  }
+  .noscontent1{
+    margin: auto;
+    font-size: 15px;
+  }
+}
+@media only screen and (min-width:1200px) {
+  body{
+    padding: 0 50px;
+  }
+}
 

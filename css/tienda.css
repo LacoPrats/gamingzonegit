@@ -6,7 +6,6 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   letter-spacing: 0ch;
 }
-
 .bodyimag {
   background: -webkit-gradient(linear, left top, left bottom, from(#1a255d), color-stop(#1e1e67), to(#000044));
   background-color: #5023A8;
@@ -26,7 +25,6 @@ header h2 {
   text-align: center;
   word-spacing: 0,5ch;
 }
-
 header h1 {
   color: #F5EB4C;
   display: block;
@@ -45,14 +43,9 @@ header h1 {
   word-spacing: 20px;
   letter-spacing: 5px;
 }
-
-
-
-
 nav {
   background-color: #F5EB4C;
 }
-
 nav .nav__ {
   padding: 1px;
   -webkit-box-align: end;
@@ -98,7 +91,6 @@ main .main_photo {
   display: line block;
   margin: 40px;
 }
-
 main .maint {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -111,24 +103,20 @@ main .maint {
       justify-content: space-around;
   border: 5px #3dd0d8;
 }
-
 main .maint li {
   color: cyan;
   text-align: left;
 }
-
 main .maincuadro {
   width: 250px;
   height: 300px;
   margin-bottom: 5px;
   margin: 10px;
 }
-
 main .maincuadro img {
   width: 150px;
   height: 200px;
 }
-
 main .maincuadro p {
   background-color: cyan;
   margin: 5px;
@@ -191,7 +179,6 @@ footer {
   width: 90%;
   height: 50%;
 }
-
 .btnMas {
   padding: 1rem 2rem;
   border-radius: 10px;
@@ -205,7 +192,6 @@ footer {
   background-color: white;
   color: black;
 }
-
 .heroImage {
   background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/imag/high-score-mundo-videojuegos-2036783.webp");
   background-size: cover;
@@ -215,9 +201,8 @@ footer {
 }
 
 .heroText {
-  position: absolute;
-  top: 40%;
-  right: 25%;
+  text-align: center;
+  padding-top: 100px
 }
 
 .heroText h2 {
@@ -247,3 +232,41 @@ color: #00d6cf;
     background-color: aliceblue;
     color: black;
   }
+  .productPrice2{
+    font-size: 1.3rem;
+  font-weight: bold;
+  margin: 25px;
+  }
+  .productPrice3{
+    font-size: 1.3rem;
+  font-weight: bold;
+  margin: 38px;
+  }
+  @media only screen and (max-width:480px) {
+    .carta{
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+    }
+    
+  }
+  @media only screen and (max-width:320px) {
+    .maint{
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  @media only screen and (max-width:768px) {
+    .maint{
+      display: flex;
+      flex-direction: column;
+    }
+    
+  }
+  @media only screen and (min-width:1200px) {
+    body{
+      padding: 0 50px;
+    }
+  }   
+

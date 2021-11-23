@@ -73,7 +73,7 @@ nav .nav__ a {
 }
 
 main hr {
-  color: cyan;
+  color: #F5EB4C;
 }
 
 main h1 {
@@ -131,10 +131,8 @@ footer {
 }
 
 .heroText {
-  position: absolute;
-  top: 40%;
-  right: 20%;
   text-align: center;
+  padding-top: 100px
 }
 
 .heroText h2 {

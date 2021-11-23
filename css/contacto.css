@@ -1,5 +1,5 @@
 * {
-  margin: 0;
+  margin: 5px;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -118,4 +118,39 @@ label{
 }
 legend{
   color: #F5EB4C;
+}
+@media only screen and (max-width:480px) {
+  .conta{
+    font-size: 40px;
+  }
+  textarea{
+    margin: auto;
+    width: 100%;
+  }
+.contact{
+  margin: auto;
+}
+  }
+@media only screen and (max-width:768px) {
+  .conta{
+    font-size: 40px;
+  }
+  textarea{
+    margin: auto;
+    width: 100%;
+  }
+.contact{
+  margin: auto;
+}
+}
+@media only screen and (min-width:1200px) {
+  body{
+    padding: 0 
+  }
+     textarea{
+      margin: auto;
+    }
+  .contact{
+    margin: auto;
+  } 
 }

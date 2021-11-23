@@ -26,7 +26,6 @@ header h2 {
   text-align: center;
   word-spacing: 0,5ch;
 }
-
 header h1 {
   color: #F5EB4C;
   display: block;
@@ -45,9 +44,6 @@ header h1 {
   word-spacing: 20px;
   letter-spacing: 5px;
 }
-
-
-
 nav {
   background-color: #F5EB4C;
 }
@@ -91,7 +87,6 @@ main section h1 {
           box-sizing: border-box;
   height: 80px;
 }
-
 main .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -109,7 +104,6 @@ main .container {
   background: -webkit-gradient(linear, left top, left bottom, from(#1a255d), color-stop(#1e1e67), to(#000044));
  background-color: #864DF5;
 }
-
 footer {
   background: -webkit-gradient(linear, left top, left bottom, from(#33a8ae), color-stop(#64d3e4), to(#50d0c1));
   background-color: #F5EB4C;  
@@ -125,7 +119,6 @@ footer {
   margin: 10px;
 background-color: #F5EB4C;   
  }
-    
   .cartah{
     border-radius: 10px;
     height: 40%;
@@ -186,4 +179,57 @@ background-color: #F5EB4C;
 .buttonh:hover {
   background-color: aliceblue;
   color: black;
+}
+hr{
+  color: #F5EB4C;
+}
+@media only screen and (max-width:320px) {
+  .carrousel{
+    width: 50%;
+  }
+  .maint{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .image__publi{width: 100%;
+  margin: auto;}
+  iframe{
+    margin: auto;
+    width: 100%;
+  }
+}
+@media only screen and (max-width:480px) {
+  .carrousel{
+    width: 100%;
+  }
+  .maint{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .image__publi{width: 100%;
+  margin: auto;}
+  iframe{
+    margin: auto;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .carrousel{
+    width: 80%;
+    text-align: center;
+  }
+  .maint{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .image__publi{width: 100%;
+  margin: auto;}
+  iframe{
+    margin: auto;
+    width: 100%;
+  }
 }
