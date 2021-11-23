@@ -12,12 +12,22 @@
   background-color: #5023A8;
 }
 
-header .index_element {
+header .titulos {
   text-align: center;
   color: #F5EB4C;
 }
 
-header .index_element h1 {
+header h2 {
+  text-align: center;
+}
+
+header h2 {
+  color: #F5EB4C;
+  text-align: center;
+  word-spacing: 0,5ch;
+}
+
+header h1 {
   color: #F5EB4C;
   display: block;
   font-size: 2em;
@@ -36,12 +46,8 @@ header .index_element h1 {
   letter-spacing: 5px;
 }
 
-header .index_element h2 {
-  color: #F5EB4C;
-  text-align: center;
-  word-spacing: 0,5ch;
-  text-align: center;
-}
+
+
 
 nav {
   background-color: #F5EB4C;
@@ -195,6 +201,10 @@ footer {
   background-color: #864DF5;
   color: #F5EB4C;
 }
+.btnMas:hover{
+  background-color: white;
+  color: black;
+}
 
 .heroImage {
   background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/imag/high-score-mundo-videojuegos-2036783.webp");
@@ -233,3 +243,7 @@ color: #00d6cf;
     color: #F5EB4C;
     margin-bottom: 20px;
   }  
+  .buttontienda:hover {
+    background-color: aliceblue;
+    color: black;
+  }

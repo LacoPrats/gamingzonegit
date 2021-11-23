@@ -12,12 +12,22 @@
   background-color: #5023A8;
 }
 
-.header .header_element {
+header .titulos {
   text-align: center;
   color: #F5EB4C;
 }
 
-.header .header_element h1 {
+header h2 {
+  text-align: center;
+}
+
+header h2 {
+  color: #F5EB4C;
+  text-align: center;
+  word-spacing: 0,5ch;
+}
+
+header h1 {
   color: #F5EB4C;
   display: block;
   font-size: 2em;
@@ -36,12 +46,7 @@
   letter-spacing: 5px;
 }
 
-.header .header_element h2 {
-  color: cyan;
-  text-align: center;
-  word-spacing: 0,5ch;
-  text-align: center;
-}
+
 
 nav {
   background-color: #F5EB4C;
@@ -177,4 +182,8 @@ background-color: #F5EB4C;
   .image__publi{
       width: 600px;
       height: 300px;
+}
+.buttonh:hover {
+  background-color: aliceblue;
+  color: black;
 }
