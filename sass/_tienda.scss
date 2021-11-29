@@ -7,14 +7,14 @@
 }
 
 .bodyimag{
-    background: linear-gradient(rgb(26, 37, 93), rgb(30, 30, 103), rgb(0, 0, 68));
+    background-color: #5023A8;
 }
 header {
     .index_element{
         text-align: center;
-        color: cyan;
+        color: #F5EB4C;
         h1 {
-            color:cyan;
+            color:#F5EB4C;
             display: block;
             font-size: 2em;
             margin-block-start: 0.67em;
@@ -28,7 +28,7 @@ header {
             letter-spacing: 5px;
             }
             h2{
-                color: cyan;
+                color:#F5EB4C;
                 text-align: center; 
                 word-spacing: 0,5ch; 
                 text-align: center; 
@@ -36,28 +36,18 @@ header {
         }
 }
 nav {
-    background-color:(rgb(0, 214, 207));
+    background-color: #F5EB4C;
     .nav__ { 
         padding: 1px;
         align-items: flex-end;
-        justify-content: center;
-        ul li {
-            margin: 4px 60px;
-            a {
-                color: white;
-
-            }
-        }
-         a {
-            color: white;
-
-        }
-}   }
+        justify-content: center;  
+    } 
+  }
 
 main {
     text-align: center;
     hr{
-        color: cyan;
+        color: #F5EB4C;
     }
     .main_element{
         text-align: center;
@@ -69,19 +59,13 @@ main {
          width: 550px;
          height: 400px;
          display: line block;
-         margin: 40px;
-         
+         margin: 40px;  
      }  
         .maint{
             display: flex;
             flex-direction: row;
             justify-content: space-around;
-            border: 5px rgb(61, 208, 216);
-            li{
-                color: cyan;
-                text-align: left;
-            }
-            
+       
         }
         .maincuadro{
             width: 250px;
@@ -93,12 +77,10 @@ main {
              height: 200px;
             }
              p{
-                 background-color:cyan;
+                 background-color:#F5EB4C;
                  margin: 5px;
                 color: darkslateblue;
              }
-            
-
         }
        }
         h1{
@@ -117,7 +99,7 @@ main {
         }
     }
 footer {
-    background: linear-gradient(rgb(51, 168, 174), rgb(100, 211, 228), rgb(80, 208, 193));
+    background-color: #F5EB4C;
     color:darkslateblue;
     text-align: center;
     letter-spacing: 3px;

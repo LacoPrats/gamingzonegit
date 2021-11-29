@@ -5,24 +5,25 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     letter-spacing: 0ch;
 }
+
 .bodyimag{
-    background: linear-gradient(rgb(26, 37, 93), rgb(30, 30, 103), rgb(0, 0, 68));
+    background-color: #5023A8;
 }
 header {
     .titulos{
         text-align: center;
-        color: cyan;
+        color: #F5EB4C;
        }
     h2{
         text-align: center;
    }
     h2{
-        color: antiquewhite;
+        color:#F5EB4C;
         text-align: center; 
         word-spacing: 0,5ch;  
     }
     h1 {
-    color:white;
+    color:#F5EB4C;
     display: block;
     font-size: 2em;
     margin-block-start: 0.67em;
@@ -38,54 +39,39 @@ header {
 }
 
 nav {
-    background-color:(rgb(0, 214, 207));
+    background-color:#F5EB4C;
     .nav__ { 
         padding: 1px;
         align-items: flex-end;
         justify-content: center;
-        ul li {
-            margin: 4px 60px;
-            a {
-                color: white;
-
-            }
-        }
-         a {
-            color: white;
-
-        }
 }   }
 
 main {
-    hr{
-        color: cyan;
-    }
+    section{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        .contact{
+            box-sizing: border-box;
+            border: rgb(255, 15, 195);
+            border-radius: 2cm;
+            color: cyan;
+            box-sizing: content-box;
+        }
+    
+      
+       }
         h1{
-           background-color: (rgb(0, 214, 207));
-            color: darkslateblue;
+            color: cyan;
             box-sizing: border-box;
             height: 80px;
         }
-        .titulos{
-            text-align: center;
-            color: cyan;
-        }
-        .ilus{
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            .imags{
-                width: 350px;
-                height: 400px;
-                border: 2px double whitesmoke; 
-                &:hover{
-                    transform:scale(1.3,1.3);
-                    border: 5px double rgb(255, 15, 195); ;
-                }
-            }
-        }
+      
+
     }
+
+ 
+
 footer {
     background: linear-gradient(rgb(51, 168, 174), rgb(100, 211, 228), rgb(80, 208, 193));
     color:darkslateblue;
