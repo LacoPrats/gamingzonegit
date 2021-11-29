@@ -78,7 +78,7 @@ footer {
   letter-spacing: 3px;
 }
 .heroImage1 {
-  background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/imag/nosotros1.jpg");
+  background-image:url("../imag/nosotros1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 15rem;
@@ -93,7 +93,7 @@ footer {
 font-size: 3rem;
 }
 .heroImage2 {
-  background-image:url("/imag/nosotros2.jpg");
+  background-image:url("../imag/nosotros2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 15rem;
@@ -102,7 +102,7 @@ font-size: 3rem;
   margin: 0px;
 }
 .heroImage3 {
-  background-image:url("/imag/nosotros3.jpg");
+  background-image:url("../imag/nosotros3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 15rem;
@@ -110,7 +110,7 @@ font-size: 3rem;
   color: #F5EB4C
 }
 .heroImage4 {
-  background-image:url("/imag/nosotros4.jpg");
+  background-image:url("../imag/nosotros4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 15rem;
