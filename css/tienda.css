@@ -186,7 +186,7 @@ footer {
   color: black;
 }
 .heroImage {
-  background-image: url("/imag/high-score-mundo-videojuegos-2036783.webp");
+  background-image: url("../imag/high-score-mundo-videojuegos-2036783.webp");
   background-size: cover;
   background-repeat: no-repeat;
   height: 25rem;

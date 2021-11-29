@@ -107,7 +107,8 @@ font-size: 3rem;
   background-repeat: no-repeat;
   height: 15rem;
   position: relative;
-  color: #F5EB4C
+  color: #F5EB4C;
+  margin: 0px;
 }
 .heroImage4 {
   background-image:url("../imag/nosotros4.jpg");
@@ -115,7 +116,8 @@ font-size: 3rem;
   background-repeat: no-repeat;
   height: 15rem;
   position: relative;
-  color: #F5EB4C
+  color: #F5EB4C;
+  margin: 0px;
 }
 .mario{
   width: 20%;
