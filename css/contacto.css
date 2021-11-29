@@ -131,7 +131,13 @@ legend{
   margin: auto;
 }
   }
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:960px) {
+  .header_element{
+    font-size: 3rem;
+  }
+  .header_element2{
+    font-size: 2rem;
+  }
   .conta{
     font-size: 40px;
   }

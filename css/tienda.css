@@ -70,6 +70,8 @@ nav .nav__ a {
 
 main {
   text-align: center;
+  padding: 0;
+  text-align: center;
 }
 
 main hr {
@@ -91,7 +93,7 @@ main .main_photo {
   display: line block;
   margin: 40px;
 }
-main .maint {
+.maint {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -105,7 +107,6 @@ main .maint {
 }
 main .maint li {
   color: cyan;
-  text-align: left;
 }
 main .maincuadro {
   width: 250px;
@@ -165,11 +166,11 @@ footer {
 }
 
 .productTitle {
-  font-size: 1rem;
+  font-size: 12px;
   font-weight: bold;
 }
 .productPrice {
-  font-size: 1.3rem;
+  font-size: 10px;
   font-weight: bold;
   margin: 10px;
 }
@@ -180,9 +181,9 @@ footer {
   height: 50%;
 }
 .btnMas {
-  padding: 1rem 2rem;
+  padding: 20px 20px;
   border-radius: 10px;
-  font-size: 1.2rem;
+  font-size: 12px;
   font-weight: bold;
   text-transform: uppercase;
   background-color: #864DF5;
@@ -219,52 +220,150 @@ margin: 3rem;
 color: #00d6cf;
   }
 .buttontienda{
-    padding: 1rem 1rem;
+    padding: 10px 10px;
     border-radius: 10px;
     font-size: 10px;
     font-weight: bold;
     text-transform: uppercase;
     background-color: #5023A8;
     color: #F5EB4C;
-    margin-bottom: 20px;
+    margin-bottom: 80px;
   }  
   .buttontienda:hover {
     background-color: aliceblue;
     color: black;
   }
   .productPrice2{
-    font-size: 1.3rem;
+    font-size: 10px;
   font-weight: bold;
-  margin: 25px;
+  margin: 22px;
   }
   .productPrice3{
-    font-size: 1.3rem;
+    font-size:10px;
   font-weight: bold;
   margin: 38px;
   }
-  @media only screen and (max-width:480px) {
-    .carta{
+  
+@media(max-width:768px) {
+    .header_element{
+      font-size: 3rem;
+    }
+    .header_element2{
+      font-size: 2rem;
+    }
+    .buttontienda{
+      padding: 5px 5px;
+      border-radius: 5px;
+      font-size: 5px;
+      font-weight: bold;
+      text-transform: uppercase;
+      background-color: #5023A8;
+      color: #F5EB4C;
+      margin-bottom: 60px;
+    }  
+    .productPrice2{
+      font-size: 6px;
+    font-weight: bold;
+    margin: auto;
+    }
+    .productPrice3{
+      font-size: 6px;
+    font-weight: bold;
+    margin: 10px;
+    }
+    .productTitle {
+      font-size: 8px;
+      font-weight: bold;
+    }
+    .productPrice {
+      font-size: 6px;
+      font-weight: bold;
       margin: auto;
-      display: flex;
-      flex-direction: column;
     }
-    
-  }
-  @media only screen and (max-width:320px) {
-    .maint{
+    .productPrice4 {
+      font-size: 1px;
+      font-weight: bold;
       margin: auto;
-      display: flex;
-      flex-direction: column;
+    }
+    .carta__image  {
+      margin: 1rem 0rem;
+      width: 90%;
+      height: 50%;
+    }
+    .carta {
+      background-color:red;
+      border-radius: 10px;
+      margin: 10px;
+      width: 400px;
+    }
+    .btnMas {
+      padding: 1rem 2rem;
+      border-radius: 10px;
+      font-size: 10px;
+      font-weight: bold;
+      text-transform: uppercase;
+      background-color: #864DF5;
+      color: #F5EB4C;
     }
   }
-  @media only screen and (max-width:768px) {
-    .maint{
-      display: flex;
-      flex-direction: column;
+   @media(max-width:960px) {
+    .header_element{
+      font-size: 3rem;
     }
-    
+    .header_element2{
+      font-size: 2rem;
+    }
+    .buttontienda{
+      padding: 5px 5px;
+      border-radius: 5px;
+      font-size: 5px;
+      font-weight: bold;
+      text-transform: uppercase;
+      background-color: #5023A8;
+      color: #F5EB4C;
+      margin-bottom: 30px;
+    }  
+    .productPrice2{
+      font-size: 10px;
+    font-weight: bold;
+    margin: 18px;
+    }
+    .productPrice3{
+      font-size: 10px;
+    font-weight: bold;
+    margin: auto;
+    }
+    .productTitle {
+      font-size: 7px;
+      font-weight: bold;
+    }
+    .productPrice {
+      font-size: 10px;
+      font-weight: bold;
+      margin: 10px;
+    }
+    .carta__image  {
+      margin: 1rem 0rem;
+      width: 90%;
+      height: 50%;
+    }
+    .carta {
+      background-color:blue;
+      border-radius: 10px;
+      margin: 10px;
+      width: 400px;
+    }
+    .btnMas {
+      padding: 10px 10px;
+      border-radius: 10px;
+      font-size: 8px;
+      font-weight: bold;
+      text-transform: uppercase;
+      background-color: #864DF5;
+      color: #F5EB4C;
+    }
   }
-  @media only screen and (min-width:1200px) {
+  @media only screen and (min-width:1024px) {
     body{
       padding: 0 50px;
     }

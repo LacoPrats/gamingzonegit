@@ -154,17 +154,25 @@ font-weight: bolder;
     font-size:10px;
   }
 }
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:960px) {
+  .header_element{
+    font-size: 3rem;
+    color: #F5EB4C;
+  }
+  .header_element2{
+    font-size: 2rem;
+    color: #F5EB4C;
+  }
   .nostitle{
     margin: auto;
-    font-size: 15px;
+    font-size: 20px;
   }
   .noscontent1{
     margin: auto;
-    font-size: 15px;
+    font-size: 10px;
   }
 }
-@media only screen and (min-width:1200px) {
+@media only screen and (min-width:1024px) {
   body{
     padding: 0 50px;
   }
