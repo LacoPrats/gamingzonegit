@@ -94,7 +94,7 @@ main .main_photo {
       -ms-flex-direction: row;
           flex-direction: row;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+      justify-content: center;
   border: 5px #3dd0d8;
 }
 main .maint li {
@@ -186,7 +186,7 @@ footer {
   color: black;
 }
 .heroImage {
-  background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/imag/high-score-mundo-videojuegos-2036783.webp");
+  background-image: url("/imag/high-score-mundo-videojuegos-2036783.webp");
   background-size: cover;
   background-repeat: no-repeat;
   height: 25rem;
