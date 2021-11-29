@@ -128,13 +128,12 @@ h1 {
 }
 
 div h1 {
-  background-color: cyan;
   color: darkslateblue;
 }
 
 
 footer {
-  background: -webkit-gradient(linear, left top, left bottom, from(#33a8ae), color-stop(#64d3e4), to(#50d0c1));
+ 
   background-color: #F5EB4C;  
   color: darkslateblue;
   text-align: center;
@@ -180,6 +179,7 @@ footer {
   text-transform: uppercase;
   background-color: #864DF5;
   color: #F5EB4C;
+  text-align: center;
 }
 .btnMas:hover{
   background-color: white;
