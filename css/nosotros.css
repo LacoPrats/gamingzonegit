@@ -8,7 +8,7 @@
 }
 
 .bodyimag {
-  background: -webkit-gradient(linear, left top, left bottom, from(#1a255d), color-stop(#1e1e67), to(#000044));
+  
   background-color: #5023A8;
 }
 header .titulos {
@@ -19,12 +19,12 @@ header h2 {
   text-align: center;
 }
 header h2 {
-  color: antiquewhite;
+  color:#F5EB4C;
   text-align: center;
   word-spacing: 0,5ch;
 }
 header h1 {
-  color: white;
+  color: #F5EB4C;
   display: block;
   font-size: 2em;
   -webkit-margin-before: 0.67em;
@@ -58,14 +58,7 @@ nav .nav__ ul li {
   margin: 4px 60px;
 }
 
-nav .nav__ ul li a {
-  color: white;
-}
-nav .nav__ a {
-  color: white;
-}
 main h1 {
-  background-color: #00d6cf;
   color: darkslateblue;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
