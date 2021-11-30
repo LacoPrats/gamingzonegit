@@ -1,5 +1,5 @@
 * {
-  margin: 5px;
+  margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -8,77 +8,35 @@
 }
 
 .bodyimag {
-  
   background-color: #5023A8;
 }
-header .titulos {
+
+header .header_element {
   text-align: center;
   color: #F5EB4C;
-}
-header h2 {
-  text-align: center;
-}
-header h2 {
-  color:#F5EB4C;
-  text-align: center;
   word-spacing: 0,5ch;
-}
-header h1 {
-  color: #F5EB4C;
-  display: block;
-  font-size: 2em;
-  -webkit-margin-before: 0.67em;
-          margin-block-start: 0.67em;
-  -webkit-margin-after: 0.67em;
-          margin-block-end: 0.67em;
-  -webkit-margin-start: 0px;
-          margin-inline-start: 0px;
-  -webkit-margin-end: 0px;
-          margin-inline-end: 0px;
   font-weight: bold;
-  text-align: center;
   font-size: 70px;
   word-spacing: 20px;
   letter-spacing: 5px;
 }
+
+header .header_element2 {
+  text-align: center;
+  color: #F5EB4C;
+  font-size: 2em;
+}
+
 nav {
   background-color: #F5EB4C;
 }
-nav .nav__ {
-  padding: 1px;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+
+main {
+  text-align: center;
 }
 
-nav .nav__ ul li {
-  margin: 4px 60px;
-}
-
-main h1 {
-  color: darkslateblue;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  height: 80px;
-}
-main h2 {
-  text-align: center;
-}
-main p {
-  text-align: center;
-}
-footer {
-  background: -webkit-gradient(linear, left top, left bottom, from(#33a8ae), color-stop(#64d3e4), to(#50d0c1));
-  background-color: #F5EB4C;  
-  color: darkslateblue;
-  text-align: center;
-  letter-spacing: 3px;
-}
-.heroImage1 {
-  background-image:url("../imag/nosotros1.jpg");
+main .heroImage1 {
+  background-image: url("../imag/nosotros1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 15rem;
@@ -86,14 +44,16 @@ footer {
   color: #F5EB4C;
   margin: 0px;
 }
-.nostitle{
+
+main .nostitle {
   text-align: center;
   font-weight: bold;
   padding-top: 50px;
-font-size: 3rem;
+  font-size: 3rem;
 }
-.heroImage2 {
-  background-image:url("../imag/nosotros2.jpg");
+
+main .heroImage2 {
+  background-image: url("../imag/nosotros2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 15rem;
@@ -101,8 +61,9 @@ font-size: 3rem;
   color: #F5EB4C;
   margin: 0px;
 }
-.heroImage3 {
-  background-image:url("../imag/nosotros3.jpg");
+
+main .heroImage3 {
+  background-image: url("../imag/nosotros3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 15rem;
@@ -110,8 +71,9 @@ font-size: 3rem;
   color: #F5EB4C;
   margin: 0px;
 }
-.heroImage4 {
-  background-image:url("../imag/nosotros4.jpg");
+
+main .heroImage4 {
+  background-image: url("../imag/nosotros4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 15rem;
@@ -119,57 +81,69 @@ font-size: 3rem;
   color: #F5EB4C;
   margin: 0px;
 }
-.mario{
+
+main .mario {
   width: 20%;
- text-align: center;
- margin-left: 40%;
- border: 5px double #F5EB4C;
+  text-align: center;
+  border: 5px double #F5EB4C;
 }
-.nosotros{
+
+main .nosotros {
   color: #F5EB4C;
   margin: 0px;
 }
-.sobrenosotros{
+
+main .sobrenosotros {
   padding: 20px;
   margin: 20px;
   background-color: #864DF5;
   border-radius: 20px;
 }
-.noscontent1{
-font-size: 15px;
-font-weight: bolder;
+
+main .noscontent1 {
+  font-size: 15px;
+  font-weight: bolder;
 }
-@media only screen and (max-width:480px) {
-  .nostitle{
+
+footer {
+  background-color: #F5EB4C;
+  color: darkslateblue;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+@media only screen and (max-width: 480px) {
+  .nostitle {
     margin: auto;
     font-size: 10px;
   }
-  .noscontent1{
-    margin: auto;
-    font-size:10px;
-  }
-}
-@media only screen and (max-width:960px) {
-  .header_element{
-    font-size: 3rem;
-    color: #F5EB4C;
-  }
-  .header_element2{
-    font-size: 2rem;
-    color: #F5EB4C;
-  }
-  .nostitle{
-    margin: auto;
-    font-size: 20px;
-  }
-  .noscontent1{
+  .noscontent1 {
     margin: auto;
     font-size: 10px;
-  }
-}
-@media only screen and (min-width:1024px) {
-  body{
-    padding: 0 50px;
   }
 }
 
+@media only screen and (max-width: 960px) {
+  .header_element {
+    font-size: 3rem;
+    color: #F5EB4C;
+  }
+  .header_element2 {
+    font-size: 2rem;
+    color: #F5EB4C;
+  }
+  .nostitle {
+    margin: auto;
+    font-size: 20px;
+  }
+  .noscontent1 {
+    margin: auto;
+    font-size: 10px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  body {
+    padding: 0 50px;
+  }
+}

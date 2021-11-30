@@ -8,44 +8,28 @@
 .bodyimag{
     background-color: #5023A8;
 }
-header {
-    .titulos{
-        text-align: center;
-        color:  #F5EB4C
-       }
-    h2{
-        text-align: center;
-   }
-    h2{
-        color:  #F5EB4C;
-        text-align: center; 
-        word-spacing: 0,5ch;  
-    }
-    h1 {
-    color: #F5EB4C;
-    display: block;
-    font-size: 2em;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-    text-align: center;
-    font-size: 70px;
-    word-spacing: 20px;
+header{
+    .header_element{
+     text-align: center;
+     color: #F5EB4C;
+     word-spacing: 0,5ch;
+     font-weight: bold;
+     font-size: 70px;
+     word-spacing: 20px;
     letter-spacing: 5px;
+    }
+    .header_element2{
+     text-align: center;
+     color: #F5EB4C;
+     font-size: 2em;
+    }
 }
-}
-
 nav {
-    background-color: #F5EB4C;
-    .nav__ { 
-        padding: 1px;
-        align-items: flex-end;
-        justify-content: center;
-}   }
+ background-color: #F5EB4C;
+}
 
 main {
+    text-align: center;
     hr{
         color:  #F5EB4C;
     }
@@ -73,6 +57,32 @@ main {
                 }
             }
         }
+        .heroImage {
+            background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/imag/fanar.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 25rem;
+            position: relative;
+          }
+          
+          .heroText {
+            text-align: center;
+            padding-top: 100px
+          }
+          
+          .heroText h2 {
+            font-size: 3rem;
+            color: yellow;
+          }
+          
+          .heroText p {
+            color: yellow; 
+          }
+          .main_title{
+            color: #F5EB4C;
+            text-align: center;
+            margin-top: 30px;
+          }
     }
 footer {
     background-color: #F5EB4C;
@@ -80,4 +90,9 @@ footer {
     text-align: center;
     letter-spacing: 3px;
 }
+@media only screen and (min-width:1024px) {
+    body{
+      padding: 0 50px;
+    }
+  }
     

@@ -10,75 +10,128 @@
     background-color: #5023A8;
 }
 header {
-    .titulos{
-        text-align: center;
-        color: #F5EB4C;
-       }
-    h2{
-        text-align: center;
+        .header_element{
+         text-align: center;
+         color: #F5EB4C;
+         word-spacing: 0,5ch;
+         font-weight: bold;
+         font-size: 70px;
+         word-spacing: 20px;
+        letter-spacing: 5px;
+        }
+        .header_element2{
+         text-align: center;
+         color: #F5EB4C;
+         font-size: 2em;
+        }
    }
-    h2{
-        color: antiquewhite;
-        text-align: center; 
-        word-spacing: 0,5ch;  
-    }
-    h1 {
-    color:#F5EB4C;
-    display: block;
-    font-size: 2em;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-    text-align: center;
-    font-size: 70px;
-    word-spacing: 20px;
-    letter-spacing: 5px;
-}
-}
-
 nav {
     background-color:#F5EB4C;
-    .nav__ { 
-        padding: 1px;
-        align-items: flex-end;
-        justify-content: center;
-}   }
-
-main { 
-    .maingrid{
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: repeat(5, 1fr);
-       grid-column-gap: 0px;
-      grid-row-gap: 20px;
-      
-    }
-    .nosotros{
-        background: red;
-        position: absolute;
-        left: 0%;
-        right: 50em;
-    }
-        h1{
-           background-color:#F5EB4C;;
-            color: darkslateblue;
-            box-sizing: border-box;
-            height: 80px;
-        }
-    h2{
+   }
+main {
+    text-align: center;
+    .heroImage1 {
+        background-image:url("../imag/nosotros1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 15rem;
+        position: relative;
+        color: #F5EB4C;
+        margin: 0px;
+      }
+      .nostitle{
         text-align: center;
-    }
-    p{
-        text-align: center;
-    }
-    }       
+        font-weight: bold;
+        padding-top: 50px;
+      font-size: 3rem;
+      }
+      .heroImage2 {
+        background-image:url("../imag/nosotros2.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 15rem;
+        position: relative;
+        color: #F5EB4C;
+        margin: 0px;
+      }
+      .heroImage3 {
+        background-image:url("../imag/nosotros3.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 15rem;
+        position: relative;
+        color: #F5EB4C;
+        margin: 0px;
+      }
+      .heroImage4 {
+        background-image:url("../imag/nosotros4.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 15rem;
+        position: relative;
+        color: #F5EB4C;
+        margin: 0px;
+      }
+      .mario{
+        width: 20%;
+       text-align: center;
+       border: 5px double #F5EB4C;
+      }
+      .nosotros{
+        color: #F5EB4C;
+        margin: 0px;
+      }
+      .sobrenosotros{
+        padding: 20px;
+        margin: 20px;
+        background-color: #864DF5;
+        border-radius: 20px;
+      }
+      .noscontent1{
+      font-size: 15px;
+      font-weight: bolder;
+      }
+} 
 footer {
     background-color: #F5EB4C;
     color:darkslateblue;
     text-align: center;
     letter-spacing: 3px;
 }
+@media only screen and (max-width:480px) {
+    .nostitle{
+      margin: auto;
+      font-size: 10px;
+    }
+    .noscontent1{
+      margin: auto;
+      font-size:10px;
+    }
+  }
+  @media only screen and (max-width:960px) {
+    .header_element{
+      font-size: 3rem;
+      color: #F5EB4C;
+    }
+    .header_element2{
+      font-size: 2rem;
+      color: #F5EB4C;
+    }
+    .nostitle{
+      margin: auto;
+      font-size: 20px;
+    }
+    .noscontent1{
+      margin: auto;
+      font-size: 10px;
+    }
+  }
+  @media only screen and (min-width:1024px) {
+    body{
+      padding: 0 50px;
+    }
+  }
+  
+  
 
     

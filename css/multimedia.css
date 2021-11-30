@@ -1,5 +1,5 @@
 * {
-  margin: 5px;
+  margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -8,60 +8,31 @@
 }
 
 .bodyimag {
-  background: -webkit-gradient(linear, left top, left bottom, from(#1a255d), color-stop(#1e1e67), to(#000044));
   background-color: #5023A8;
 }
 
-header .titulos {
+header .header_element {
   text-align: center;
   color: #F5EB4C;
-}
-
-header h2 {
-  text-align: center;
-}
-
-header h2 {
-  color: #F5EB4C;
-  text-align: center;
   word-spacing: 0,5ch;
-}
-
-header h1 {
-  color: #F5EB4C;
-  display: block;
-  font-size: 2em;
-  -webkit-margin-before: 0.67em;
-          margin-block-start: 0.67em;
-  -webkit-margin-after: 0.67em;
-          margin-block-end: 0.67em;
-  -webkit-margin-start: 0px;
-          margin-inline-start: 0px;
-  -webkit-margin-end: 0px;
-          margin-inline-end: 0px;
   font-weight: bold;
-  text-align: center;
   font-size: 70px;
   word-spacing: 20px;
   letter-spacing: 5px;
+}
+
+header .header_element2 {
+  text-align: center;
+  color: #F5EB4C;
+  font-size: 2em;
 }
 
 nav {
   background-color: #F5EB4C;
 }
 
-nav .nav__ {
-  padding: 1px;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-nav .nav__ ul li {
-  margin: 4px 60px;
+main {
+  text-align: center;
 }
 
 main hr {
@@ -78,7 +49,6 @@ main h1 {
 main .titulos {
   text-align: center;
   color: #F5EB4C;
-  margin-top: 30px;
 }
 
 main .ilus {
@@ -107,64 +77,44 @@ main .ilus .imags:hover {
   border: 5px double #ff0fc3;
 }
 
-footer {
-  background-color: #F5EB4C;  
-  color: darkslateblue;
-  text-align: center;
-  letter-spacing: 3px;
-}
-.heroImage {
-  background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/imag/fanar.jpg");
+main .heroImage {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/imag/fanar.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/imag/fanar.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 25rem;
   position: relative;
 }
 
-.heroText {
+main .heroText {
   text-align: center;
-  padding-top: 100px
+  padding-top: 100px;
 }
 
-.heroText h2 {
+main .heroText h2 {
   font-size: 3rem;
   color: yellow;
 }
 
-.heroText p {
-  color: yellow; 
+main .heroText p {
+  color: yellow;
 }
-.main_title{
+
+main .main_title {
   color: #F5EB4C;
   text-align: center;
   margin-top: 30px;
 }
-@media only screen and (max-width:480px) {
-  .heroText h2 {
-    font-size: 1rem;
-    color: yellow;
-  }
-}
-@media only screen and (max-width:960px) {
-  .header_element{
-    font-size: 3rem;
-    color: #F5EB4C;
-  }
-  .header_element2{
-    font-size: 2rem;
-    color: #F5EB4C;
-  }
-  .heroText h2  {
-    font-size: 2rem;
-    color: yellow;
-  }
-}
-@media only screen and (min-width:1024px) {
-  body{
-    padding: 0 50px;
-  }
-  .carrousel{
-    width: 100%;
-  }
+
+footer {
+  background-color: #F5EB4C;
+  color: darkslateblue;
+  text-align: center;
+  letter-spacing: 3px;
 }
 
+@media only screen and (min-width: 1024px) {
+  body {
+    padding: 0 50px;
+  }
+}
