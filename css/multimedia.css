@@ -78,7 +78,7 @@ main .ilus .imags:hover {
 }
 
 main .heroImage {
-  background-image: url("../imag/fanar.jpg");
+  background-image: url("..imag/fanar.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 25rem;
